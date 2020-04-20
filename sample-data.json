@@ -1,0 +1,996 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "ndi9-2pye",
+      "name" : "Transit communities",
+      "attribution" : "City of Seattle",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1297713008,
+      "displayType" : "table",
+      "downloadCount" : 1651,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1557517797,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 309217,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1302998589,
+      "publicationGroup" : 221852,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1313894915,
+      "rowsUpdatedBy" : "pfbu-yuv5",
+      "tableId" : 221852,
+      "totalTimesRated" : 0,
+      "viewCount" : 1670,
+      "viewLastModified" : 1557954875,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1302998589,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 330077,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1302998589,
+        "workflowId" : 623,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "pfbu-yuv5",
+          "displayName" : "Seattle IT"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 2649395,
+        "name" : "Name",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1442245,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 42,
+          "largest" : "Yesler Terrace",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Yesler Terrace",
+            "count" : 1
+          }, {
+            "item" : "Roosevelt",
+            "count" : 1
+          }, {
+            "item" : "Central",
+            "count" : 1
+          }, {
+            "item" : "Mt. Baker Station",
+            "count" : 1
+          }, {
+            "item" : "North Beacon Hill",
+            "count" : 1
+          }, {
+            "item" : "King Street Station",
+            "count" : 1
+          }, {
+            "item" : "South Lake Union",
+            "count" : 1
+          }, {
+            "item" : "Crown Hill",
+            "count" : 1
+          }, {
+            "item" : "West Seattle Junction/Triangle",
+            "count" : 1
+          }, {
+            "item" : "15th Ave",
+            "count" : 1
+          }, {
+            "item" : "Lake City",
+            "count" : 1
+          }, {
+            "item" : "Lander",
+            "count" : 1
+          }, {
+            "item" : "Colman Dock",
+            "count" : 1
+          }, {
+            "item" : "Ballard",
+            "count" : 1
+          }, {
+            "item" : "Morgan Junction",
+            "count" : 1
+          }, {
+            "item" : "12th Ave? (First Hill)",
+            "count" : 1
+          }, {
+            "item" : "Westlake",
+            "count" : 1
+          }, {
+            "item" : "Belltown",
+            "count" : 1
+          }, {
+            "item" : "Westwood",
+            "count" : 1
+          }, {
+            "item" : "Husky Stadium",
+            "count" : 1
+          } ],
+          "smallest" : "12th Ave? (First Hill)"
+        },
+        "format" : { }
+      }, {
+        "id" : 2649396,
+        "name" : "Typology",
+        "dataTypeName" : "text",
+        "fieldName" : "typology",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1442246,
+        "width" : 166,
+        "cachedContents" : {
+          "non_null" : 42,
+          "largest" : "Special District",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Mixed Use Neighborhood",
+            "count" : 19
+          }, {
+            "item" : "Mixed Use Center regional",
+            "count" : 4
+          }, {
+            "item" : "Special District",
+            "count" : 3
+          }, {
+            "item" : "Mixed Use Center",
+            "count" : 2
+          }, {
+            "item" : "Mixed Use Center future",
+            "count" : 2
+          }, {
+            "item" : "Mixed Use Center/Special District",
+            "count" : 2
+          }, {
+            "item" : "Mixed Use Center ­regional?",
+            "count" : 1
+          }, {
+            "item" : "Industrial Jobs Center",
+            "count" : 1
+          }, {
+            "item" : "Mixed Use Center future/local",
+            "count" : 1
+          }, {
+            "item" : "Industrial Jobs Center/Special District",
+            "count" : 1
+          }, {
+            "item" : "Mixed Use Center ",
+            "count" : 1
+          }, {
+            "item" : "Mixed Use Center local",
+            "count" : 1
+          }, {
+            "item" : "Mixed Use Neighborhood future",
+            "count" : 1
+          }, {
+            "item" : "Mixed Use Center regional/Special District",
+            "count" : 1
+          }, {
+            "item" : "n/a or transit node",
+            "count" : 1
+          }, {
+            "item" : "Mixed use Center local",
+            "count" : 1
+          } ],
+          "smallest" : "Industrial Jobs Center"
+        },
+        "format" : { }
+      }, {
+        "id" : 2649397,
+        "name" : "Current Conditions",
+        "dataTypeName" : "text",
+        "fieldName" : "current_conditions",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1442247,
+        "width" : 286,
+        "cachedContents" : {
+          "non_null" : 38,
+          "largest" : "will not radically change in terms of allocation of resources and activity; intact retail community; modest rezones proposed in updated Neighborhood Plan including El Centro de la Raza; linear corridor feel could be enhanced",
+          "null" : 4,
+          "top" : [ {
+            "item" : "major transit hub surrounded by parking lots, empty space; pedestrian movement very problematic; Rainier Ave S barrier with high traffic volumes; Residential far from station/connections",
+            "count" : 1
+          }, {
+            "item" : "Consider renaming this district",
+            "count" : 1
+          }, {
+            "item" : "Circle of transit community should shift one block north; 15th is a pleasant street with a nice grid and accessible topography. Great, well established mix of jobs and retail. Group Health fits nicely into the community without overwhelming or defining the community; The narrow streets lend themselves to creating an intimate streetscape with small authentic retail street environment; Well established bus; Good ped/bike connections to Volunteer Park; This is a good model for what a Mixed Use Neighborhood could be ",
+            "count" : 1
+          }, {
+            "item" : "LRT service; sex offender; low intensity",
+            "count" : 1
+          }, {
+            "item" : "some pedestrian activity; small commercial business district; possible annexation of adjacent land to the south; more of a “village” off busy streets",
+            "count" : 1
+          }, {
+            "item" : "will not radically change in terms of allocation of resources and activity; intact retail community; modest rezones proposed in updated Neighborhood Plan including El Centro de la Raza; linear corridor feel could be enhanced",
+            "count" : 1
+          }, {
+            "item" : "variety of businesses – more big box stores/destination for West Seattlites; some new investment; aspiring U Village; very auto oriented; strong identity; localized",
+            "count" : 1
+          }, {
+            "item" : "Predominately residential",
+            "count" : 1
+          }, {
+            "item" : "Not walkable; elongate district shape N-S to touch Greenwood",
+            "count" : 1
+          }, {
+            "item" : "24 hr neighborhood",
+            "count" : 1
+          }, {
+            "item" : "High population, S edge is industrial",
+            "count" : 1
+          }, {
+            "item" : "Institutions; high density; great historic character; already receiving DPD considerations",
+            "count" : 1
+          }, {
+            "item" : "Seattle Center; Theater District; 2-Way Mercer will improve pedestrian environment",
+            "count" : 1
+          }, {
+            "item" : "intersections of bus lines; movie theater, library, schools, restaurants; center of north half of West Seattle",
+            "count" : 1
+          }, {
+            "item" : "residential; safety",
+            "count" : 1
+          }, {
+            "item" : "Has a core employment population",
+            "count" : 1
+          }, {
+            "item" : "Predominantly residential    ",
+            "count" : 1
+          }, {
+            "item" : "underlying water issues; vibrant commercial pedestrian activity; large properties available for redevelopment",
+            "count" : 1
+          }, {
+            "item" : "Royal Brougham; Destination; some hotel allowed; surge/pulse ridership; SR519 overpass",
+            "count" : 1
+          }, {
+            "item" : "Large format parcels",
+            "count" : 1
+          } ],
+          "smallest" : "24 hr neighborhood"
+        },
+        "format" : { }
+      }, {
+        "id" : 2649398,
+        "name" : "Future Needs & Priorities",
+        "dataTypeName" : "text",
+        "fieldName" : "future_needs_priorities",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1442248,
+        "width" : 370,
+        "cachedContents" : {
+          "non_null" : 34,
+          "largest" : "Transit node emphasis",
+          "null" : 8,
+          "top" : [ {
+            "item" : "some possibility for increased density and development; might advocate for increased zoning in some single family areas; works well as a mixed use neighborhood!",
+            "count" : 1
+          }, {
+            "item" : "Potential for more residential",
+            "count" : 1
+          }, {
+            "item" : "streetcar connection to Westlake; shift boundary to Pike Place Market",
+            "count" : 1
+          }, {
+            "item" : "Focus on this district being a transit node with minor MUC-R",
+            "count" : 1
+          }, {
+            "item" : "Maximize BRT; don’t encroach on Land Use",
+            "count" : 1
+          }, {
+            "item" : "streetcar to Key Arena/Seattle Center; incentive zoning – increase heights; break down Seattle Center wall; lake to bay trail; low parking ratio; sidewalks",
+            "count" : 1
+          }, {
+            "item" : "Area needs traffic calming.  While there is some burgeoning employment focus in the neighborhood the area should maintain its residential focus.  Good access to jobs in the Central Business District is a priority; Good opportunity for high rise on ridge; aspiring Mixed Use Center",
+            "count" : 1
+          }, {
+            "item" : "add residential; SR99 – plazas/open space; safety/crime – CPTED",
+            "count" : 1
+          }, {
+            "item" : "The essential components needed to better enable this mixed use neighborhood include civic infrastructure and urban design.  23rd & Union is a key place for improvements to transit infrastructure such as streetscape improvements, more pedestrian comforts such as overhead weather protection, curb bulbs and a better bus stop.  Pedestrian and bicycle connections to Capitol Hall light rail station are vitally important. Land Use strategies cal also play a role.  Increased density at all four corners of 23rd and Union can help create a heart to the community (consider NC-65 at the heart), while adjacent single family zone can stay intact. ",
+            "count" : 1
+          }, {
+            "item" : "streetcar; office/residential/small commercial; not enough retail/commercial to be Mixed Use Center; GREAT opportunities",
+            "count" : 1
+          }, {
+            "item" : "Provide safe access to the transit station",
+            "count" : 1
+          }, {
+            "item" : "needs investments;preserve character and immigrant populations; build on multi-cultural character as draw – use as impetus for jobs, community character, shared space, etc.",
+            "count" : 1
+          }, {
+            "item" : "Potential connections to Roxbury limited by topography; potential internal link in W Seattle via (trolley?) from north to south circulator to link/cross Duwamish",
+            "count" : 1
+          }, {
+            "item" : "Ballard is a “new urban center” Combine districts keeping identities separate",
+            "count" : 1
+          }, {
+            "item" : "capitalize on transit and proximity to downtown; need wider sidewalks; reward places with density",
+            "count" : 1
+          }, {
+            "item" : "Transit node emphasis",
+            "count" : 1
+          }, {
+            "item" : "pressure to rezone; pedestrian safety; lid rail Holgate; good place for more bus integration",
+            "count" : 1
+          }, {
+            "item" : "lots of possibility for growth; willing developers; East Link station @ I-90; possibility for mixed use center in the future; need to mitigate traffic volume/patterns, attract jobs",
+            "count" : 1
+          }, {
+            "item" : "needs better connection to streetcar",
+            "count" : 1
+          }, {
+            "item" : "Continue to promote very strong connections between transit modes. Address livability issues associated with a 24/7 neighborhood i.e. noise, nightlife. Building design could help. Address under-developing in some areas (minimum densities) while continuing to allow for many scales of housing, big and small retail.  Zoning - Focus on surgical interventions and refinement in some places such a Broadway. Some highrise; Bike improvements for families (not just ‘cyclists’)",
+            "count" : 1
+          } ],
+          "smallest" : "add residential; SR99 – plazas/open space; safety/crime – CPTED"
+        },
+        "format" : { }
+      }, {
+        "id" : 2649399,
+        "name" : "District",
+        "dataTypeName" : "text",
+        "fieldName" : "district",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1442249,
+        "width" : 166,
+        "cachedContents" : {
+          "non_null" : 42,
+          "largest" : "Southwest",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Downtown",
+            "count" : 5
+          }, {
+            "item" : "Northwest",
+            "count" : 5
+          }, {
+            "item" : "Southeast",
+            "count" : 4
+          }, {
+            "item" : "Northeast",
+            "count" : 4
+          }, {
+            "item" : "East",
+            "count" : 4
+          }, {
+            "item" : "Southwest",
+            "count" : 3
+          }, {
+            "item" : "East/Central",
+            "count" : 3
+          }, {
+            "item" : "Greater Duwamish",
+            "count" : 3
+          }, {
+            "item" : "North",
+            "count" : 2
+          }, {
+            "item" : "Delridge",
+            "count" : 2
+          }, {
+            "item" : "Lake Union",
+            "count" : 2
+          }, {
+            "item" : "Magnolia/Queen Anne",
+            "count" : 2
+          }, {
+            "item" : "Ballard",
+            "count" : 2
+          }, {
+            "item" : "Central",
+            "count" : 1
+          } ],
+          "smallest" : "Ballard"
+        },
+        "format" : { }
+      }, {
+        "id" : 2649400,
+        "name" : "Neighborhood Plan",
+        "dataTypeName" : "url",
+        "fieldName" : "neighborhood_plan",
+        "position" : 6,
+        "renderTypeName" : "url",
+        "tableColumnId" : 1442250,
+        "width" : 274,
+        "cachedContents" : {
+          "non_null" : 39,
+          "largest" : {
+            "url" : "http://www.seattle.gov/neighborhoods/npi/plans/central/"
+          },
+          "null" : 3,
+          "top" : [ {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/central/"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/westwood/"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/university/"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/aurlict/"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/ccore/"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/caphill/"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/duwa/"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/greenwood/"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/chill/"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/rosvlt/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/northgate/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/nrv/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/nbeacon/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/fhill/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/belltown/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/rbch/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/qa/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/denny/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/mlk/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/neighborhoods/npi/plans/slu/"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "url" : "http://www.seattle.gov/neighborhoods/npi/plans/university/"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 2649401,
+        "name" : "Status Check",
+        "dataTypeName" : "url",
+        "fieldName" : "status_check",
+        "position" : 7,
+        "renderTypeName" : "url",
+        "tableColumnId" : 1442251,
+        "width" : 214,
+        "cachedContents" : {
+          "non_null" : 27,
+          "largest" : {
+            "url" : "http://www.seattle.gov/planningcommission/docs/CentralAreaExecSummary.pdf"
+          },
+          "null" : 15,
+          "top" : [ {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/CentralAreaExecSummary.pdf"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/WHPExecSummary.pdf"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/CHBExecSummary.pdf"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/UniversityCommunityExecSummary.pdf"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/CapitolHillExecSummary.pdf"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/GPRExecSummary.pdf"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/ALSExecSummary.pdf"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/BelltownExecSummary.pdf"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/LakeCityExecSummary.pdf"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/PikePineExecSummary.pdf"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/FirstHillExecSummary.pdf"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/MorganJunctionExecSummary.pdf"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/QueenAnneExecSummary.pdf"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/WSJExecSummary.pdf"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/AdmiralExecSummary.pdf"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/FremontExecSummary.pdf"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/RainierBeachExecSummary.pdf"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/CCHCGExecSummary.pdf"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/planningcommission/docs/BBLHLExecSummary.pdf"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "url" : "http://www.seattle.gov/planningcommission/docs/UniversityCommunityExecSummary.pdf"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 2649403,
+        "name" : "City Planning",
+        "dataTypeName" : "url",
+        "fieldName" : "city_planning",
+        "position" : 9,
+        "renderTypeName" : "url",
+        "tableColumnId" : 1442253,
+        "width" : 226,
+        "cachedContents" : {
+          "non_null" : 24,
+          "largest" : {
+            "url" : "http://www.seattle.gov/DPD/Planning/Center_City/Overview/"
+          },
+          "null" : 18,
+          "top" : [ {
+            "item" : {
+              "url" : "http://www.seattle.gov/DPD/Planning/Center_City/Overview/"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/GreenwoodRezone/Overview/default.asp"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/Aurora/Overview/"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/IndustrialLands/Overview/"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/DPD/Planning/South_Lake_Union/Overview/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/Neighborhood_Planning/NeighborhoodPlanUpdates/RainierBeach/default.asp"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/FremontUrbanVillageRezone/Overview/default.asp"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/WestSeattleTriangle/Overview/default.asp"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://waterfrontseattle.org/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/DPD/Planning/Northgate_Revitalization/Overview/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/BallardURV/Overview/default.asp"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/PikePineConservationOverlayDistrict/Overview/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/Neighborhood_Planning/NeighborhoodPlanUpdates/NorthBeaconHill/default.asp"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/Neighborhood_Planning/NeighborhoodPlanUpdates/MLKatHollyStreet/default.asp"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/CapHillStationArea/Overview/default.asp"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/Neighborhood_Planning/NeighborhoodPlanUpdates/NorthRainier/default.asp"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.yeslerterrace.org/"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/Neighborhood_Planning/NeighborhoodPlanUpdates/BroadviewBitterLakeHallerLake/default.asp"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/dpd/Planning/South_Downtown/Overview/"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "url" : "http://www.seattle.gov/dpd/Planning/BallardURV/Overview/default.asp"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 2649404,
+        "name" : "Major Transit project?",
+        "dataTypeName" : "url",
+        "fieldName" : "major_transit_project",
+        "position" : 10,
+        "renderTypeName" : "url",
+        "tableColumnId" : 1442254,
+        "width" : 334,
+        "cachedContents" : {
+          "non_null" : 18,
+          "largest" : {
+            "url" : "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/CLine.aspx"
+          },
+          "null" : 24,
+          "top" : [ {
+            "item" : {
+              "url" : "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/ELine.aspx"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "url" : "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/CLine.aspx"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "url" : "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/DLine.aspx"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "url" : "http://projects.soundtransit.org/Projects-Home/North-Link/Northgate-Station.xml"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://projects.soundtransit.org/Projects-Home/North-Link/Roosevelt-Station.xml"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://projects.soundtransit.org/Projects-Home/University-Link/University-of-Washington-Station.xml"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://projects.soundtransit.org/Projects-Home/North-Link/Brooklyn-Station.xml"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://www.seattle.gov/transportation/kingstreet.htm"
+            },
+            "count" : 1
+          }, {
+            "item" : {
+              "url" : "http://projects.soundtransit.org/Projects-Home/University-Link/Capitol-Hill-Station.xml"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "url" : "http://projects.soundtransit.org/Projects-Home/North-Link/Brooklyn-Station.xml"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Department" : {
+            "Department" : "Office of Planning and Community Development"
+          },
+          "Refresh Frequency" : {
+            "Frequency" : "To Be Determined"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "pfbu-yuv5",
+        "displayName" : "Seattle IT",
+        "profileImageUrlLarge" : "/api/users/pfbu-yuv5/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/pfbu-yuv5/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/pfbu-yuv5/profile_images/TINY",
+        "screenName" : "Seattle IT",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "pfbu-yuv5",
+        "displayName" : "Seattle IT",
+        "profileImageUrlLarge" : "/api/users/pfbu-yuv5/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/pfbu-yuv5/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/pfbu-yuv5/profile_images/TINY",
+        "screenName" : "Seattle IT",
+        "type" : "interactive",
+        "userSegment" : "site_member",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-v7iy.5qpi_4gym", "00000000-0000-0000-BC2A-4792CDE7BA56", 0, 1555689867, null, 1555689867, null, "{ }", "University District", "Mixed Use Center future", "Has a core employment population", null, "Northeast", [ "http://www.seattle.gov/neighborhoods/npi/plans/university/", null ], [ "http://www.seattle.gov/planningcommission/docs/UniversityCommunityExecSummary.pdf", null ], null, [ "http://projects.soundtransit.org/Projects-Home/North-Link/Brooklyn-Station.xml", null ] ]
+, [ "row-e4ec_gqnk-mtei", "00000000-0000-0000-0BCE-170A0AB9BDBD", 0, 1555689867, null, 1555689867, null, "{ }", "Ballard", "Mixed use Center local", "High population, S edge is industrial", "Ballard is a “new urban center” Combine districts keeping identities separate", "Ballard", [ "http://www.seattle.gov/neighborhoods/npi/plans/chill/", null ], [ "http://www.seattle.gov/planningcommission/docs/CHBExecSummary.pdf", null ], [ "http://www.seattle.gov/dpd/Planning/BallardURV/Overview/default.asp", null ], [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/DLine.aspx", null ] ]
+, [ "row-7sfx~qsed~2zh7", "00000000-0000-0000-D377-7E7A83B0272B", 0, 1555689867, null, 1555689867, null, "{ }", "Fremont", "Mixed Use Center local", "24 hr neighborhood", null, "Lake Union", [ "http://www.seattle.gov/neighborhoods/npi/plans/fremont/", null ], [ "http://www.seattle.gov/planningcommission/docs/FremontExecSummary.pdf", null ], [ "http://www.seattle.gov/dpd/Planning/FremontUrbanVillageRezone/Overview/default.asp", null ], null ]
+, [ "row-2zn7.vwuu.ybn3", "00000000-0000-0000-226A-8F4170992275", 0, 1555689867, null, 1555689867, null, "{ }", "Campus Parkway - combined with University District?", "Mixed Use Center regional", "Major gateway to UW with many admin buildings and libraries; also some medical areas to the south along Pacific; numerous dormatories", "Focus on this district being a transit node with minor MUC-R", "Northeast", null, null, null, null ]
+, [ "row-hifd.evms.qdhv", "00000000-0000-0000-260D-9C126E492D0B", 0, 1555689867, null, 1555689867, null, "{ }", "Northgate", "Mixed Use Center regional", "Regional draw; medical and retail employment center", null, "North", [ "http://www.seattle.gov/neighborhoods/npi/plans/northgate/", null ], null, [ "http://www.seattle.gov/DPD/Planning/Northgate_Revitalization/Overview/", null ], [ "http://projects.soundtransit.org/Projects-Home/North-Link/Northgate-Station.xml", null ] ]
+, [ "row-jrff_2m2d.h49x", "00000000-0000-0000-B5E5-7F12DF705E55", 0, 1555689867, null, 1555689867, null, "{ }", "Broadview", "Mixed Use Neighborhood", "Consider renaming this district", "May become a MUC-L if it is served by fixed rail in the future", "Northwest", [ "http://www.seattle.gov/neighborhoods/npi/plans/broadview/", null ], [ "http://www.seattle.gov/planningcommission/docs/BBLHLExecSummary.pdf", null ], [ "http://www.seattle.gov/dpd/Planning/Neighborhood_Planning/NeighborhoodPlanUpdates/BroadviewBitterLakeHallerLake/default.asp", null ], [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/ELine.aspx", null ] ]
+, [ "row-7frc-mrfg.c3by", "00000000-0000-0000-2249-F04FD79313C8", 0, 1555689867, null, 1555689867, null, "{ }", "Crown Hill", "Mixed Use Neighborhood", "Large format parcels", null, "Ballard", [ "http://www.seattle.gov/neighborhoods/npi/plans/chill/", null ], [ "http://www.seattle.gov/planningcommission/docs/CHBExecSummary.pdf", null ], null, [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/DLine.aspx", null ] ]
+, [ "row-9gua_sxp4.yxw7", "00000000-0000-0000-8E2D-AC4C51CEE55A", 0, 1555689867, null, 1555689867, null, "{ }", "Greenwood", "Mixed Use Neighborhood", "Large format parcels and developments; walkability exists", "Potential for more residential", "Northwest", [ "http://www.seattle.gov/neighborhoods/npi/plans/greenwood/", null ], [ "http://www.seattle.gov/planningcommission/docs/GPRExecSummary.pdf", null ], [ "http://www.seattle.gov/dpd/Planning/GreenwoodRezone/Overview/default.asp", null ], null ]
+, [ "row-zgf7-cjt5~dz3f", "00000000-0000-0000-C777-FD4C5A2C5F4A", 0, 1555689867, null, 1555689867, null, "{ }", "Lake City", "Mixed Use Neighborhood", "Predominantly residential    ", null, "North", [ "http://www.seattle.gov/neighborhoods/npi/plans/north/", null ], [ "http://www.seattle.gov/planningcommission/docs/LakeCityExecSummary.pdf", null ], null, null ]
+, [ "row-2p4e-vzr7.mt8n", "00000000-0000-0000-88B5-315D1F9577EB", 0, 1555689867, null, 1555689867, null, "{ }", "North Green Lake", "Mixed Use Neighborhood", null, "Expand district to the south.", "Northwest", [ "http://www.seattle.gov/neighborhoods/npi/plans/aurlict/", null ], [ "http://www.seattle.gov/planningcommission/docs/ALSExecSummary.pdf", null ], [ "http://www.seattle.gov/dpd/Planning/Aurora/Overview/", null ], [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/ELine.aspx", null ] ]
+, [ "row-ysd2.9es2~tjt3", "00000000-0000-0000-C8E8-AA51976E84D8", 0, 1555689867, null, 1555689867, null, "{ }", "North Greenwood", "Mixed Use Neighborhood", "Not walkable; elongate district shape N-S to touch Greenwood", "Keep centers of N. Greenwood and Greenwood individual identities", "Northwest", [ "http://www.seattle.gov/neighborhoods/npi/plans/greenwood/", null ], [ "http://www.seattle.gov/planningcommission/docs/GPRExecSummary.pdf", null ], [ "http://www.seattle.gov/dpd/Planning/GreenwoodRezone/Overview/default.asp", null ], null ]
+, [ "row-7rgq-n64x-n9kj", "00000000-0000-0000-6F32-5FBA0AFC0C4D", 0, 1555689867, null, 1555689867, null, "{ }", "Oaktree", "Mixed Use Neighborhood", "Larger format uses provided more land use opportunities", "Station area is planned; consider connecting this with N. Greenwood E-W. Don’t lose Aurora Connection", "Northwest", [ "http://www.seattle.gov/neighborhoods/npi/plans/aurlict/", null ], [ "http://www.seattle.gov/planningcommission/docs/ALSExecSummary.pdf", null ], [ "http://www.seattle.gov/dpd/Planning/Aurora/Overview/", null ], [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/ELine.aspx", null ] ]
+, [ "row-fanw-zasx.kd2t", "00000000-0000-0000-7580-91725812894A", 0, 1555689867, null, 1555689867, null, "{ }", "Roosevelt", "Mixed Use Neighborhood", "Predominately residential", "Provide safe access to the transit station", "Northeast", [ "http://www.seattle.gov/neighborhoods/npi/plans/rosvlt/", null ], null, null, [ "http://projects.soundtransit.org/Projects-Home/North-Link/Roosevelt-Station.xml", null ] ]
+, [ "row-qt86.gzf3~jquq", "00000000-0000-0000-58D3-E8AB7CC5D3F4", 0, 1555689867, null, 1555689867, null, "{ }", "Husky Stadium", "Special District", null, "Transit node emphasis", "Northeast", [ "http://www.seattle.gov/neighborhoods/npi/plans/university/", null ], [ "http://www.seattle.gov/planningcommission/docs/UniversityCommunityExecSummary.pdf", null ], null, [ "http://projects.soundtransit.org/Projects-Home/University-Link/University-of-Washington-Station.xml", null ] ]
+, [ "row-4kj8-gvwg.sgy3", "00000000-0000-0000-D008-DCD9B33DD887", 0, 1555689867, null, 1555689867, null, "{ }", "Interbay", "Special District", "May be 2 separate districts Ind. & MUN", "Maximize BRT; don’t encroach on Land Use", "Magnolia/Queen Anne", null, null, null, [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/DLine.aspx", null ] ]
+, [ "row-w5e6_vjpx-x53w", "00000000-0000-0000-ACC7-A8BBBCC03A42", 0, 1555689867, null, 1555689867, null, "{ }", "Denny", "Mixed Use Center ­regional?", "growth and jobs; EIS for height; Denny is challenging", "more residential; needs civic square; high priority; SR99 portal/grid; EIS; grid shift opportunities; improve Denny intersection", "Downtown", [ "http://www.seattle.gov/neighborhoods/npi/plans/denny/", null ], null, [ "http://www.seattle.gov/DPD/Planning/Center_City/Overview/", null ], null ]
+, [ "row-e53u.tery-wskc", "00000000-0000-0000-FCBC-6CF05ED4B966", 0, 1555689867, null, 1555689867, null, "{ }", "Westlake", "Mixed Use Center regional", null, "streetcar connection to Westlake; shift boundary to Pike Place Market", "Downtown", [ "http://www.seattle.gov/neighborhoods/npi/plans/ccore/", null ], null, [ "http://www.seattle.gov/DPD/Planning/Center_City/Overview/", null ], null ]
+, [ "row-a43s_xjqi~4wta", "00000000-0000-0000-9EAC-2AC0C92A8F6A", 0, 1555689867, null, 1555689867, null, "{ }", "King Street Station", "Mixed Use Center/Special District", "Best multimodal transit connections; surges of people attending sporting events; connections to International District/Pioneer Square", "add residential; SR99 – plazas/open space; safety/crime – CPTED", "Downtown", [ "http://www.seattle.gov/neighborhoods/npi/plans/psquare/", null ], null, [ "http://www.seattle.gov/dpd/Planning/South_Downtown/Overview/", null ], [ "http://www.seattle.gov/transportation/kingstreet.htm", null ] ]
+, [ "row-yszj_gju7~4n8g", "00000000-0000-0000-08A7-EB9545CFE218", 0, 1555689867, null, 1555689867, null, "{ }", "Colman Dock", "Mixed Use Center/Special District", "ferry terminal", "needs better connection to streetcar", "Downtown", [ "http://www.seattle.gov/neighborhoods/npi/plans/ccore/", null ], null, [ "http://waterfrontseattle.org/", null ], null ]
+, [ "row-yqnh.ca5q_gmsp", "00000000-0000-0000-087F-5AAAAF58DCD6", 0, 1555689867, null, 1555689867, null, "{ }", "South Lake Union", "Mixed Use Center regional", "SR99 grid changes; lots of new development – Gates Foundation, Amazon; astronomical growth targets", "need essential components; better connections; school; mid-block crossings", "Lake Union", [ "http://www.seattle.gov/neighborhoods/npi/plans/slu/", null ], null, [ "http://www.seattle.gov/DPD/Planning/South_Lake_Union/Overview/", null ], [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/ELine.aspx", null ] ]
+, [ "row-jwuu-6jsk_9d8u", "00000000-0000-0000-1BE7-7DDD783733A8", 0, 1555689867, null, 1555689867, null, "{ }", "Uptown", "Mixed Use Center regional/Special District", "Seattle Center; Theater District; 2-Way Mercer will improve pedestrian environment", "streetcar to Key Arena/Seattle Center; incentive zoning – increase heights; break down Seattle Center wall; lake to bay trail; low parking ratio; sidewalks", "Magnolia/Queen Anne", [ "http://www.seattle.gov/neighborhoods/npi/plans/qa/", null ], [ "http://www.seattle.gov/planningcommission/docs/QueenAnneExecSummary.pdf", null ], null, [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/DLine.aspx", null ] ]
+, [ "row-8rm3-yzdu~w9c5", "00000000-0000-0000-5297-56A913CE6D1D", 0, 1555689867, null, 1555689867, null, "{ }", "Lander", "Industrial Jobs Center", "LRT service; sex offender; low intensity", "improve connection to Starbucks on Lander; mid-block connections; more intensive industrial; good place for bus integration from area to south and west", "Greater Duwamish", [ "http://www.seattle.gov/neighborhoods/npi/plans/duwa/", null ], null, [ "http://www.seattle.gov/dpd/Planning/IndustrialLands/Overview/", null ], null ]
+, [ "row-g6u2.3d62.uu2t", "00000000-0000-0000-CCCA-A4803B91AAFC", 0, 1555689867, null, 1555689867, null, "{ }", "Stadium", "Industrial Jobs Center/Special District", "Royal Brougham; Destination; some hotel allowed; surge/pulse ridership; SR519 overpass", "pressure to rezone; pedestrian safety; lid rail Holgate; good place for more bus integration", "Greater Duwamish", [ "http://www.seattle.gov/neighborhoods/npi/plans/duwa/", null ], null, [ "http://www.seattle.gov/dpd/Planning/IndustrialLands/Overview/", null ], null ]
+, [ "row-r8qp-jisp~8uj3", "00000000-0000-0000-42C3-73344718F9DC", 0, 1555689867, null, 1555689867, null, "{ }", "Capitol Hill", "Mixed Use Center ", "Dense, diverse, urban Neighborhood; 24/7 activity; Some regional draw including Seattle Central Community College; Cal Anderson park has become a park with citywide/regional draw; Lots of new transit investment coming on line soon. Good mix of transit modes with strong connectivity between modes; Good mix of housing serving a broad variety of income levels.  Affordable Housing works well here; Low car usage", "Continue to promote very strong connections between transit modes. Address livability issues associated with a 24/7 neighborhood i.e. noise, nightlife. Building design could help. Address under-developing in some areas (minimum densities) while continuing to allow for many scales of housing, big and small retail.  Zoning - Focus on surgical interventions and refinement in some places such a Broadway. Some highrise; Bike improvements for families (not just ‘cyclists’)", "East", [ "http://www.seattle.gov/neighborhoods/npi/plans/caphill/", null ], [ "http://www.seattle.gov/planningcommission/docs/CapitolHillExecSummary.pdf", null ], [ "http://www.seattle.gov/dpd/Planning/CapHillStationArea/Overview/default.asp", null ], [ "http://projects.soundtransit.org/Projects-Home/University-Link/Capitol-Hill-Station.xml", null ] ]
+, [ "row-ywdy.dcwb_kaka", "00000000-0000-0000-A1BC-8696BF1ECF57", 0, 1555689867, null, 1555689867, null, "{ }", "15th Ave", "Mixed Use Neighborhood", "Circle of transit community should shift one block north; 15th is a pleasant street with a nice grid and accessible topography. Great, well established mix of jobs and retail. Group Health fits nicely into the community without overwhelming or defining the community; The narrow streets lend themselves to creating an intimate streetscape with small authentic retail street environment; Well established bus; Good ped/bike connections to Volunteer Park; This is a good model for what a Mixed Use Neighborhood could be ", "Keep the flavor and don’t change much;  Density in the area should be focused near the Capitol Hill Light Rail station; Good access to the Capital Hill Station", "East", [ "http://www.seattle.gov/neighborhoods/npi/plans/caphill/", null ], [ "http://www.seattle.gov/planningcommission/docs/CapitolHillExecSummary.pdf", null ], null, null ]
+, [ "row-ji2p~3zv9~wbjy", "00000000-0000-0000-B47C-493033F4EED7", 0, 1555689867, null, 1555689867, null, "{ }", "Madison", "Mixed Use Neighborhood", "Circle of transit community should shift 2 blocks. Some new development on Madison, including lots of new grocery stores and retail.  The heart of the community is at 19th & Madison.  While there have been many recent improvements to the area many vacant lots remain.  Traffic is fast moving and there are many places such as 23rd & Madison where the pedestrian environment is inhospitable.", "Area needs traffic calming.  While there is some burgeoning employment focus in the neighborhood the area should maintain its residential focus.  Good access to jobs in the Central Business District is a priority; Good opportunity for high rise on ridge; aspiring Mixed Use Center", "East/Central", [ "http://www.seattle.gov/neighborhoods/npi/plans/central/", null ], [ "http://www.seattle.gov/planningcommission/docs/CentralAreaExecSummary.pdf", null ], null, null ]
+, [ "row-35b3~tfy3_bcb7", "00000000-0000-0000-D693-CD9E4622336F", 0, 1555689867, null, 1555689867, null, "{ }", "Central", "Mixed Use Neighborhood", "Good bus service. Business district aims to serve local community but is underutilized. Lacks many place making elements", "The essential components needed to better enable this mixed use neighborhood include civic infrastructure and urban design.  23rd & Union is a key place for improvements to transit infrastructure such as streetscape improvements, more pedestrian comforts such as overhead weather protection, curb bulbs and a better bus stop.  Pedestrian and bicycle connections to Capitol Hall light rail station are vitally important. Land Use strategies cal also play a role.  Increased density at all four corners of 23rd and Union can help create a heart to the community (consider NC-65 at the heart), while adjacent single family zone can stay intact. ", "East/Central", [ "http://www.seattle.gov/neighborhoods/npi/plans/central/", null ], [ "http://www.seattle.gov/planningcommission/docs/CentralAreaExecSummary.pdf", null ], null, null ]
+, [ "row-ak6a-pjcg.nrig", "00000000-0000-0000-0464-177016A93434", 0, 1555689867, null, 1555689867, null, "{ }", "Pike/Pine", "Mixed Use Center", "Institutions; high density; great historic character; already receiving DPD considerations", "capitalize on transit and proximity to downtown; need wider sidewalks; reward places with density", "East", [ "http://www.seattle.gov/neighborhoods/npi/plans/ppine/", null ], [ "http://www.seattle.gov/planningcommission/docs/PikePineExecSummary.pdf", null ], [ "http://www.seattle.gov/dpd/Planning/PikePineConservationOverlayDistrict/Overview/", null ], null ]
+, [ "row-injq.mjfs~nj7r", "00000000-0000-0000-C2BB-E89F0BC38C08", 0, 1555689867, null, 1555689867, null, "{ }", "12th Ave? (First Hill)", "Special District", "institutions dominate; some great residential with density; Madison calmer", "Institution break down walls – put street related retail, not cafeterias; lacks street life; improving walking and bus service to downtown; aspiring to future Mixed Use Center with more retail and service", "East", [ "http://www.seattle.gov/neighborhoods/npi/plans/fhill/", null ], [ "http://www.seattle.gov/planningcommission/docs/FirstHillExecSummary.pdf", null ], null, null ]
+, [ "row-ym95.jb2q_uhhf", "00000000-0000-0000-BC13-8F99F6696485", 0, 1555689867, null, 1555689867, null, "{ }", "Yesler Terrace", "Mixed Use Neighborhood", "residential; safety", "streetcar; office/residential/small commercial; not enough retail/commercial to be Mixed Use Center; GREAT opportunities", "East/Central", null, null, [ "http://www.yeslerterrace.org/", null ], null ]
+, [ "row-i6ud_bh6k-73tm", "00000000-0000-0000-19F4-2BFD6C2C9E94", 0, 1555689867, null, 1555689867, null, "{ }", "West Seattle Junction/Triangle", "Mixed Use Center future/local", "underlying water issues; vibrant commercial pedestrian activity; large properties available for redevelopment", "Rapid Ride and development opportunities could create more of a job center in the area; need to improve pedestrian experience; improve connections with Admiral; needs more jobs, schools, open space", "Southwest", [ "http://www.seattle.gov/neighborhoods/npi/plans/wsj/", null ], [ "http://www.seattle.gov/planningcommission/docs/WSJExecSummary.pdf", null ], [ "http://www.seattle.gov/dpd/Planning/WestSeattleTriangle/Overview/default.asp", null ], [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/CLine.aspx", null ] ]
+, [ "row-znux_8js3-h9zb", "00000000-0000-0000-7D83-EFE257C06CD1", 0, 1555689867, null, 1555689867, null, "{ }", "Morgan Junction", "Mixed Use Neighborhood", "ferry traffic and bus lines; modest/little commercial district; primarily single family; very linear; community doesn’t want more depth; new parks and residential development", null, "Southwest", [ "http://www.seattle.gov/neighborhoods/npi/plans/morgan/", null ], [ "http://www.seattle.gov/planningcommission/docs/MorganJunctionExecSummary.pdf", null ], null, [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/CLine.aspx", null ] ]
+, [ "row-6htf_vikx.qtap", "00000000-0000-0000-C6B8-C4B3B62C3634", 0, 1555689867, null, 1555689867, null, "{ }", "Westwood", "n/a or transit node", "variety of businesses – more big box stores/destination for West Seattlites; some new investment; aspiring U Village; very auto oriented; strong identity; localized", "Potential connections to Roxbury limited by topography; potential internal link in W Seattle via (trolley?) from north to south circulator to link/cross Duwamish", "Delridge", [ "http://www.seattle.gov/neighborhoods/npi/plans/westwood/", null ], [ "http://www.seattle.gov/planningcommission/docs/WHPExecSummary.pdf", null ], null, [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/CLine.aspx", null ] ]
+, [ "row-ctdv-t77a-m5pt", "00000000-0000-0000-2461-80F979A837B1", 0, 1555689867, null, 1555689867, null, "{ }", "Roxbury", "Mixed Use Neighborhood future", "some pedestrian activity; small commercial business district; possible annexation of adjacent land to the south; more of a “village” off busy streets", "currently doesn’t meet conditions but has potential to become a mixed use neighborhood", "Delridge", [ "http://www.seattle.gov/neighborhoods/npi/plans/westwood/", null ], [ "http://www.seattle.gov/planningcommission/docs/WHPExecSummary.pdf", null ], null, [ "http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/CLine.aspx", null ] ]
+, [ "row-h7kq_vrdc~q8hb", "00000000-0000-0000-4CE9-54F45EE5E16E", 0, 1555689867, null, 1555689867, null, "{ }", "Admiral", "Mixed Use Neighborhood", "intersections of bus lines; movie theater, library, schools, restaurants; center of north half of West Seattle", "some possibility for increased density and development; might advocate for increased zoning in some single family areas; works well as a mixed use neighborhood!", "Southwest", [ "http://www.seattle.gov/neighborhoods/npi/plans/admiral/", null ], [ "http://www.seattle.gov/planningcommission/docs/AdmiralExecSummary.pdf", null ], null, null ]
+, [ "row-57ec-c7kf-tsyi", "00000000-0000-0000-333A-DC85C29A6095", 0, 1555689867, null, 1555689867, null, "{ }", "North Beacon Hill", "Mixed Use Neighborhood", "will not radically change in terms of allocation of resources and activity; intact retail community; modest rezones proposed in updated Neighborhood Plan including El Centro de la Raza; linear corridor feel could be enhanced", "requests to make Beacon more of a boulevard; redesign skewed intersections; improve connection with Jefferson Park; Does proposed zoning enable more height/density around the light rail station?", "Greater Duwamish", [ "http://www.seattle.gov/neighborhoods/npi/plans/nbeacon/", null ], null, [ "http://www.seattle.gov/dpd/Planning/Neighborhood_Planning/NeighborhoodPlanUpdates/NorthBeaconHill/default.asp", null ], null ]
+, [ "row-vmwc.7a25.dtdu", "00000000-0000-0000-49A0-39A4DDFED613", 0, 1555689867, null, 1555689867, null, "{ }", "Mt. Baker Station", "Mixed Use Center future", "major transit hub surrounded by parking lots, empty space; pedestrian movement very problematic; Rainier Ave S barrier with high traffic volumes; Residential far from station/connections", "lots of possibility for growth; willing developers; East Link station @ I-90; possibility for mixed use center in the future; need to mitigate traffic volume/patterns, attract jobs", "Southeast", [ "http://www.seattle.gov/neighborhoods/npi/plans/nrv/", null ], null, [ "http://www.seattle.gov/dpd/Planning/Neighborhood_Planning/NeighborhoodPlanUpdates/NorthRainier/default.asp", null ], null ]
+, [ "row-5s2p-cgyj_h83x", "00000000-0000-0000-C873-2ECFD25E518A", 0, 1555689867, null, 1555689867, null, "{ }", "Columbia City Station", "Mixed Use Neighborhood", "some redevelopment; topography changes to the west; minimal connectivity between light rail station and Columbia City business district; even less connectivity with Hillman City; vacant/empty space", "Redevelop Zion Prep site? explore development opportunities at the light rail station instead of getting off and heading east; connect to Hillman; need placemaking, improve safety, protect diversity", "Southeast", [ "http://www.seattle.gov/neighborhoods/npi/plans/colcity/", null ], [ "http://www.seattle.gov/planningcommission/docs/CCHCGExecSummary.pdf", null ], null, null ]
+, [ "row-2bwv~snt7.hpk6", "00000000-0000-0000-B009-445FA9BA5393", 0, 1555689867, null, 1555689867, null, "{ }", "Othello Station", "Mixed Use Neighborhood", "needs investment; vibrant retail, ethnic, small businesses; trying to link parks; lots of potential for development, needs density/town center", "needs investments;preserve character and immigrant populations; build on multi-cultural character as draw – use as impetus for jobs, community character, shared space, etc.", "Southeast", [ "http://www.seattle.gov/neighborhoods/npi/plans/mlk/", null ], null, [ "http://www.seattle.gov/dpd/Planning/Neighborhood_Planning/NeighborhoodPlanUpdates/MLKatHollyStreet/default.asp", null ], null ]
+, [ "row-ttax~m3y2_hgu6", "00000000-0000-0000-DFAD-FBA13E05EC67", 0, 1555689867, null, 1555689867, null, "{ }", "Rainier Beach", "Mixed Use Neighborhood", "in the middle of nowhere; little connectivity to Rainier Beach or anything else; Rainier is dividing line. no connection to light rail on Henderson; lots of schools, community center, but not very pedestrian friendly; little connection to Seward Park or Lake Washington", "improve connection to Rainier Beach; better connection to light rail; develop Henderson as link and boulevard – retail along; increase jobs/higher education focus; better development of retail", "Southeast", [ "http://www.seattle.gov/neighborhoods/npi/plans/rbch/", null ], [ "http://www.seattle.gov/planningcommission/docs/RainierBeachExecSummary.pdf", null ], [ "http://www.seattle.gov/dpd/Planning/Neighborhood_Planning/NeighborhoodPlanUpdates/RainierBeach/default.asp", null ], null ]
+, [ "row-sce5_v6nm_6jcp", "00000000-0000-0000-35FF-64ED0152EC67", 0, 1555689867, null, 1555689867, null, "{ }", "Belltown", "Mixed Use Center", "Belltown needs a heart and better east-west connections", null, "Downtown", [ "http://www.seattle.gov/neighborhoods/npi/plans/belltown/", null ], [ "http://www.seattle.gov/planningcommission/docs/BelltownExecSummary.pdf", null ], [ "http://www.seattle.gov/DPD/Planning/Center_City/Overview/", null ], null ]
+, [ "row-y3wt.zgg2~csp7", "00000000-0000-0000-5FAE-A260EA0A5F38", 0, 1555689867, null, 1555689867, null, "{ }", "23rd & Jackson", "Mixed Use Neighborhood", null, null, "Central", [ "http://www.seattle.gov/neighborhoods/npi/plans/central/", null ], [ "http://www.seattle.gov/planningcommission/docs/CentralAreaExecSummary.pdf", null ], null, null ]
+ ]
+}
